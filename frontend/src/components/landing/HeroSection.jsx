@@ -44,6 +44,16 @@ export const HeroSection = ({ data, onDemoRequest }) => {
                 variant="outline" 
                 size="lg" 
                 className="border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-4 text-lg font-semibold transition-colors duration-200 shadow-none hover:shadow-none rounded-lg"
+                onClick={() => window.location.href = '/dashboard'}
+              >
+                Dashboard'a Git
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+              
+              <Button 
+                variant="outline" 
+                size="lg" 
+                className="border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-4 text-lg font-semibold transition-colors duration-200 shadow-none hover:shadow-none rounded-lg"
               >
                 <Play className="mr-2 h-5 w-5" />
                 Demo Videosu İzle
