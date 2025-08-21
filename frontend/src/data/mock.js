@@ -1,10 +1,10 @@
 export const mockData = {
   // Hero section content
   hero: {
-    title: "Tesora for Manufacturing",
+    title: "Sorzo",
     subtitle: "Yapay Zekâ Destekli Tedarikçi Keşfi ve RFQ Otomasyonu",
     description: "Türkiye imalat sektörü için geliştirilmiş akıllı tedarik platformu. Satın alma süreçlerinizi hızlandırın, maliyetlerinizi düşürün.",
-    cta: "Ücretsiz Demo Talep Et",
+    cta: "Demo Talep Et",
     heroImage: "https://images.unsplash.com/photo-1717386255773-1e3037c81788"
   },
 
@@ -21,7 +21,7 @@ export const mockData = {
       id: 2,
       title: "AI Tedarikçi Eşleştirme",
       description: "Türkiye OSB ve ticaret dizini ile semantic search. Her kalem için minimum 5 tedarikçi önerisi.",
-      icon: "Brain",
+      icon: "Brain", 
       image: "https://images.unsplash.com/photo-1647427060118-4911c9821b82"
     },
     {
@@ -45,7 +45,7 @@ export const mockData = {
     {
       id: 1,
       title: "RFQ Tamamlama Süresi",
-      value: "<48 Saat",
+      value: "48 Saat", 
       description: "Geleneksel süreçlere göre %75 daha hızlı",
       icon: "Clock"
     },
@@ -108,7 +108,7 @@ export const mockData = {
   // Footer data
   footer: {
     company: {
-      name: "Tesora",
+      name: "Sorzo",
       description: "Türkiye imalat sektörü için geliştirilmiş yapay zekâ destekli tedarik platformu."
     },
     links: {
