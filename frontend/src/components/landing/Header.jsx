@@ -91,7 +91,14 @@ export const Header = ({ onDemoRequest }) => {
                   {item.name}
                 </a>
               ))}
-              <div className="px-4 pt-4 border-t border-gray-200">
+              <div className="px-4 pt-4 border-t border-gray-200 space-y-2">
+                <Button 
+                  variant="outline"
+                  onClick={() => window.location.href = '/dashboard'}
+                  className="w-full border-orange-500 text-orange-500 hover:bg-orange-50 shadow-none hover:shadow-none border rounded-lg"
+                >
+                  Dashboard'a Git
+                </Button>
                 <Button 
                   onClick={() => {
                     onDemoRequest();
